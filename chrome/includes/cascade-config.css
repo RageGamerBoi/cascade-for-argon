@@ -3,11 +3,11 @@
  +---+---+---+---+---+---*/
 
 
-:root {
+ :root {
 
   /*  Global Border Radius
    *  applied to ALL UI elements
-   */ --uc-border-radius: 0px;
+   */ --uc-border-radius: 8px;
 
 
   /*  The distance the Statuspanel floats
@@ -15,18 +15,19 @@
    *  0 places directly in the corner
    */ --uc-status-panel-spacing: 12px;
 
+  /*  Top margin for the Page Action Buttons
+   *  inside the URL Bar. This might need
+   *  customisation depending on yout setup!
+   */ --uc-page-action-margin: 7px;
+
 }
 
 
 /* remove window control buttons */
-.titlebar-buttonbox-container { display: none !important; }
+ .titlebar-buttonbox-container { display: all !important; }
 
 
 #pageActionButton { display: none !important; }
-
-#PanelUI-menu-button { padding: 0px !important; }
-#PanelUI-menu-button .toolbarbutton-icon { width: 1px !important; }
-#PanelUI-menu-button .toolbarbutton-badge-stack { padding: 0px !important; }
 
 
 
@@ -43,7 +44,7 @@
  *  4 – toolbar on bottom
  */
 :root {
-  --uc-toolbar-position: 0;
+  --uc-toolbar-position: 4;
 }
 
 /*  Darken the Personal Toolbar by X amount
@@ -69,8 +70,8 @@
   /*  Width of the URL Bar for the Oneline layout
    *  If enabled the max-width is applied on focus
    *  otherwise the URL Bar will always be it's min-width
-   */ --uc-urlbar-min-width: 35vw;
-      --uc-urlbar-max-width: 35vw;
+   */ --uc-urlbar-min-width: 480px;
+      --uc-urlbar-max-width: 720px;
 
   /*  Position of the URL Bar
    *  possible values:
@@ -78,17 +79,12 @@
    *  3 – tabs on the left
    */ --uc-urlbar-position: 1;
 
-  /*  Firefox can be a little wonky with the vertical
-   *  URL Bar placement. Change this variable to adapt
-   *  to this when necessary.
-   */ --uc-urlbar-top-spacing: 1px;
-
 }
 
 
 /* Disable the Navigation Buttons */
-#back-button,
-#forward-button { display: none !important; }
+/* #back-button,
+#forward-button { display: none !important; } */
 
 /* Disables the Tracking Protection Shield */
 /* #tracking-protection-icon-container { display: none !important; } */
@@ -100,13 +96,21 @@
   /* #identity-box { display: none !important } */
 
 /* Hide everything BUT the zoom indicator within the URL Bar */
-#page-action-buttons > :not(#urlbar-zoom-button) { display: none !important; }
+#page-action-buttons > :not(#urlbar-zoom-button):not(#star-button-box) { display: none !important; }
+.urlbar-page-action > image { margin-top: var(--uc-page-action-margin) !important; }
+
+/* Hide Container Tab labels inside the URL bar */
+#userContext-icons { display: none !important; }
+
 
 /* Hide the »Go«-arrow in the URL Bar */
 #urlbar-go-button { display: none !important; }
 
 /* Hides the Extensions Menu Icon */
-#unified-extensions-button { display: none !important; }
+/* #unified-extensions-button { display: none !important; } */
+
+
+#alltabs-button { margin-top: 5px !important; }
 
 
 
@@ -135,13 +139,7 @@
    *  possible values:
    *  show: -moz-inline-block
    *  hide: none
-   */ --show-tab-close-button-hover: none;
-
-  /*  Hide the all Tabs button from the Tab Bar
-   *  possible values:
-   *  show: -moz-box
-   *  hide: none
-   */ --uc-show-all-tabs-button: none;
+   */ --show-tab-close-button-hover: -moz-inline-block;
 
 
   /*  Left and Right "dip" of the container indicator
