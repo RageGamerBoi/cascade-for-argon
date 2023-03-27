@@ -1,6 +1,4 @@
-<br><br>
-
-# Cascade
+# Cascade for Argon - expirimental
 **A minimalistic and keyboard centered userChrome**
 
 Cascade aims to remove a lot of the subjective clutter default Firefox comes with. The theme is also highly inspired by the stylistic choices of [SimpleFox](https://github.com/migueravila/SimpleFox) 🦊 by [Miguel Ávila](https://github.com/migueravila).
@@ -13,23 +11,12 @@ Cascade aims to remove a lot of the subjective clutter default Firefox comes wit
 
 <br>
 
-This theme was known previously as »*ag.proton*« — but let's be honest: That sounds hella boring. What you get is a really simple adaptive layout that works well with the new Proton UI. By default — on larger screen resolutions – Cascade will transition to a Oneline layout which displays the URL Bar and Tab Bar next to each other. Smaller resultions will stack both UI elements on top of each other for better readability.
-
-<br><br><br>
-
-<div align="center">
-
-[![Stargazers](https://img.shields.io/github/stars/andreasgrafen/cascade?style=for-the-badge&color=F19066&labelColor=1E2021)](https://github.com/andreasgrafen/cascade/stargazers)
-[![Issues](https://img.shields.io/github/issues/andreasgrafen/cascade?style=for-the-badge&color=FC5C65&labelColor=1E2021)](https://github.com/andreasgrafen/cascade/issues)
-[![Discord](https://img.shields.io/discord/837559961194070026?label=FFCSS+Discord&style=for-the-badge&color=786FA6&labelColor=1E2021)](https://discord.gg/jrrw7Eg6sj)
-
-If you *really* like my work you can buy me a coffee to fuel further development.<br>
-While appreciated it's ofc by no means necessary. ♡<br><br>
-[![Buy me a Coffee <3](https://img.shields.io/static/v1?label=&message=Buy%20me%20a%20Coffee&style=for-the-badge&color=e6e9ef&labelColor=ccd0da&logo=kofi)](https://ko-fi.com/andreasgrafen)
+If you like the original dev's work, you can buy them a coffee to fuel further development.<br><br>
+[![Buy the original dev a Coffee <3](https://img.shields.io/static/v1?label=&message=Buy%20me%20a%20Coffee&style=for-the-badge&color=e6e9ef&labelColor=ccd0da&logo=kofi)](https://ko-fi.com/andreasgrafen)
 
 </div>
 
-<br><br><hr><br>
+<hr>
 
 <details><summary><h2>Table of Contents</h2></summary>
 
@@ -46,8 +33,7 @@ While appreciated it's ofc by no means necessary. ♡<br><br>
   - [Side View](#side-view)
 - [Keyboard Shortcuts](#keyboard-shortcuts)
 
-</details><br>
-
+</details>
 ## How to install Cascade
 
 1. Type `about:config` into your URL bar. Click on the **I accept the risk** button if you're shown a warning.
@@ -66,7 +52,7 @@ While appreciated it's ofc by no means necessary. ♡<br><br>
 > **Note** **⚠️ Attention Windows users**.<br>
 It seems like `flexbox` (within the Firefox UI) is inheritly broken on Windows. In order to fix the One-Line layout on windows please substitute the [responsive include](chrome/includes/cascade-responsive.css) with the [version for windows](chrome/includes/cascade-responsive-windows-fix.css). This will ensure that the layout doesn't break **but** since it can't use `flexbox` the UI reordering does **not** work.<br>
 
-<br><br><br>
+<br><br>
 
 ## Customise Cascade to your liking
 
@@ -86,15 +72,7 @@ A workaround fix for this issue is to remove the colour include from the [main f
 
 ### Mouse Support
 
-Cascade offers an [alternative config file](chrome/includes/cascade-config-mouse.css) that reintroduces some of the UI elements that are necessary to use Firefox with a mouse. To use these settings simply substitue the regular config include with the one for mouse support.
-
-This config brings back:
-* Navigation Buttons
-* the URL Bar Bookmark Button
-* the Hamburger Menu
-* Tab Close Buttons (on hover)
-
-If the buttons inside the URL Bar are off you may need to change the `--uc-page-action-margin` variable in the config as the necessary margin seems to differ depending on ones setup.
+(I've already enabled it)
 
 <br>
 
@@ -157,7 +135,7 @@ If you'd like to have Cascade transition into it's Oneline layout on either smal
 }
 ```
 
-<br><br><br>
+<br><br>
 
 ## Integrations
 
