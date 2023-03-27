@@ -7,7 +7,7 @@ Cascade aims to remove a lot of the subjective clutter default Firefox comes wit
 
 <br>
 
-![Cascade Preview](assets/preview.webp)
+![Cascade for Argon Preview](assets/preview.webp)
 
 <br>
 
