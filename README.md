@@ -34,6 +34,7 @@ If you like the original dev's work, you can buy them a coffee to fuel further d
 - [Keyboard Shortcuts](#keyboard-shortcuts)
 
 </details>
+
 ## How to install Cascade
 
 1. Install the base theme: https://addons.mozilla.org/en-US/firefox/addon/argon-experimental/
