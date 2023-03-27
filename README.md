@@ -1,4 +1,4 @@
-# Cascade for Argon - expirimental
+# Cascade for Argon - experimental
 **A minimalistic and keyboard centered userChrome**
 
 Cascade aims to remove a lot of the subjective clutter default Firefox comes with. The theme is also highly inspired by the stylistic choices of [SimpleFox](https://github.com/migueravila/SimpleFox) 🦊 by [Miguel Ávila](https://github.com/migueravila).
