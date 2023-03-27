@@ -36,7 +36,7 @@ If you like the original dev's work, you can buy them a coffee to fuel further d
 </details>
 ## How to install Cascade
 
-1. Install the theme: https://addons.mozilla.org/en-US/firefox/addon/argon-experimental/
+1. Install the base theme: https://addons.mozilla.org/en-US/firefox/addon/argon-experimental/
 2. Type `about:config` into your URL bar. Click on the **I accept the risk** button if you're shown a warning.
 3. Seach for **`toolkit.legacyUserProfileCustomizations.stylesheets`** and set it to **`true`**.
 4. Go to your profile folder:
