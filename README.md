@@ -36,14 +36,15 @@ If you like the original dev's work, you can buy them a coffee to fuel further d
 </details>
 ## How to install Cascade
 
-1. Type `about:config` into your URL bar. Click on the **I accept the risk** button if you're shown a warning.
-2. Seach for **`toolkit.legacyUserProfileCustomizations.stylesheets`** and set it to **`true`**.
-3. Go to your profile folder:
+1. Install the theme: https://addons.mozilla.org/en-US/firefox/addon/argon-experimental/
+2. Type `about:config` into your URL bar. Click on the **I accept the risk** button if you're shown a warning.
+3. Seach for **`toolkit.legacyUserProfileCustomizations.stylesheets`** and set it to **`true`**.
+4. Go to your profile folder:
   - Linux: `$HOME/.mozilla/firefox/######.default-release/`
   - MacOS: `Users/[USERNAME]/Library/Application Support/Firefox/Profiles/######.default-release`
   - Windows: `C:\Users\[USERNAME]\AppData\Roaming\Mozilla\Firefox\Profiles\######.default-release`
-4. Copy the `chrome` folder into your profile and restart<sup>1)</sup> Firefox.
-5. Customise everything to your liking. (*optional*)
+5. Copy the `chrome` folder into your profile and restart<sup>1)</sup> Firefox.
+6. Customise everything to your liking. (*optional*)
 
 <sup>1) If you're running into trouble with a restart seemingly not working you can navigate to `about:profiles` and click the »*Restart Normally*«-Button.</sup>
 
